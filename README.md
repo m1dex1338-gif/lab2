@@ -51,5 +51,5 @@ lab2/
 
 ## Посилання
 
-- Репозиторій: `https://github.com/<твій-логін>/<назва-репо>`
-- GitHub Pages: `https://<твій-логін>.github.io/<назва-репо>/`
+- Репозиторій: https://github.com/m1dex1338-gif/lab2
+- GitHub Pages: https://m1dex1338-gif.github.io/lab2/
