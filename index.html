@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorkHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <img src="icons/logo.svg" alt="" class="logo-icon">
+        <span>WorkHub</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+      <label for="nav-toggle" class="nav-toggle-btn">
+        <img src="icons/menu.svg" alt="">
+      </label>
+
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link active">Головна</a>
+        <a href="#about" class="nav-link">Про простір</a>
+        <a href="#categories" class="nav-link">Формати</a>
+        <a href="#products" class="nav-link">Каталог</a>
+        <a href="#reviews" class="nav-link">Відгуки</a>
+        <a href="#contacts" class="nav-link">Контакти</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" aria-label="Пошук">
+          <img src="icons/search.svg" alt="">
+        </button>
+        <button type="button" class="icon-btn" aria-label="Кошик">
+          <img src="icons/cart.svg" alt="">
+        </button>
+        <a href="#products" class="btn btn-primary">Забронювати</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="badge-tag">Сучасні простори</span>
+            <h1 class="hero-title">Розумні робочі місця для команд та резидентів</h1>
+            <p class="hero-desc">
+              Ергономічні меблі, приватні звукоізольовані кабіни, швидкісний інтернет та гнучкі тарифи для вашої максимальної продуктивності.
+            </p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary">Обрати рішення</a>
+              <a href="#about" class="btn btn-outline">Віртуальний тур</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-image-wrapper">
+              <img src="icons/hero-coworking.jpg" alt="">
+              <div class="hero-floating-badge">
+                <span class="badge-dot"></span>
+                <div>
+                  <div class="badge-text-title">Доступність місць</div>
+                  <div class="badge-text-val">98% Вільних зон зараз</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">7+</div>
+            <div class="stat-label">Років інновацій у просторах</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">12</div>
+            <div class="stat-label">Локацій у ключових районах</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">10000+</div>
+            <div class="stat-label">Задоволених резидентів</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">260+</div>
+            <div class="stat-label">Обладнаних робочих станцій</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="aesthetic-section" id="about">
+      <div class="container">
+        <div class="aesthetic-content">
+          <div class="aesthetic-media">
+            <div class="aesthetic-image-wrapper">
+              <img src="icons/about-workspace.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="aesthetic-text">
+            <span class="badge-tag">Ергономіка</span>
+            <h2 class="aesthetic-title">Ми створюємо робочий простір естетичним та функціональним</h2>
+            <p class="aesthetic-desc">
+              Кожна деталь продумана для того, щоб ви не відволікалися від головного — досягнення результатів та генерації нових ідей.
+            </p>
+
+            <ul class="features-list">
+              <li class="feature-item">
+                <div class="feature-icon-box">
+                  <img src="icons/check.svg" alt="">
+                </div>
+                <div>
+                  <h3 class="feature-title">Ергономічні меблі бізнес-класу</h3>
+                  <p class="feature-desc">Столи з електрорегулюванням висоти та крісла з поперековою фіксацією для здоров'я постави.</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon-box">
+                  <img src="icons/check.svg" alt="">
+                </div>
+                <div>
+                  <h3 class="feature-title">Звукоізольовані зони та капсули</h3>
+                  <p class="feature-desc">Акустичні кабіни для телефонних дзвінків, відеоконференцій та максимальної тиші.</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon-box">
+                  <img src="icons/check.svg" alt="">
+                </div>
+                <div>
+                  <h3 class="feature-title">Автономність 24/7 та швидкісний зв'язок</h3>
+                  <p class="feature-desc">Безперебійне живлення від генераторів та два незалежні оптоволоконні канали інтернету.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories-section" id="categories">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Формати</span>
+          <h2>Формати та зони коворкінгу</h2>
+          <p>Оберіть простір, який найкраще підходить під ваш щоденний ритм та завдання команди</p>
+        </div>
+
+        <div class="categories-grid">
+          <article class="category-card">
+            <div class="category-image-box">
+              <img src="icons/category-hotdesk.jpg" alt="">
+            </div>
+            <div class="category-body">
+              <h3 class="category-title">Hot Desk</h3>
+              <p class="category-subtitle">Гнучке місце у відкритому просторі</p>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-image-box">
+              <img src="icons/category-dedicated.jpg" alt="">
+            </div>
+            <div class="category-body">
+              <h3 class="category-title">Dedicated Desk</h3>
+              <p class="category-subtitle">Закріплений стіл з персональним локером</p>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-image-box">
+              <img src="icons/category-office.jpg" alt="">
+            </div>
+            <div class="category-body">
+              <h3 class="category-title">Private Office</h3>
+              <p class="category-subtitle">Окремий засклений кабінет для команд від 2 до 20 осіб</p>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-image-box">
+              <img src="icons/category-meeting.jpg" alt="">
+            </div>
+            <div class="category-body">
+              <h3 class="category-title">Meeting Room</h3>
+              <p class="category-subtitle">Переговорна з відеозв'язком та смарт-екраном</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-section">
+      <div class="container">
+        <div class="banner-box">
+          <div class="banner-text">
+            <span class="badge-tag">Індивідуальні рішення</span>
+            <h2 class="banner-title">Найкращі рішення для коворкінгів на ваш вибір</h2>
+            <p class="banner-desc">
+              Ми комплектуємо робочі місця під ключ: від розумних столів з мобільними датчиками до повної акустичної оптимізації відкритих приміщень.
+            </p>
+            <a href="#products" class="btn btn-primary">Дізнатися більше</a>
+          </div>
+          <div class="banner-media">
+            <img src="icons/partner-workspace.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Каталог</span>
+          <h2>Каталог робочих станцій та обладнання</h2>
+          <p>Професійні ергономічні меблі й рішення для щоденної продуктивної праці</p>
+        </div>
+
+        <div class="products-grid">
+          <!-- cards:start -->
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Хіт продажу</span>
+    <img src="products/desk-smart.jpg" alt="Smart Desk Pro">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Smart Desk Pro</h3>
+    <p class="product-desc">Стіл з подвійним електромотором, пам'яттю висоти на 4 положення та кабелем-каналом.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">14 500 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Ергономіка</span>
+    <img src="products/chair-ergo.jpg" alt="AeroMesh Chair">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">AeroMesh Chair</h3>
+    <p class="product-desc">Дихаюча сітчаста спинка, регульований поперековий підпір та 4D-підлокітники.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">8 900 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Акустика</span>
+    <img src="products/pod-acoustic.jpg" alt="Silent Pod Solo">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Silent Pod Solo</h3>
+    <p class="product-desc">Акустична звукоізоляційна кабіна з вентиляцією, вбудованим столиком та розетками.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">52 000 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Для команд</span>
+    <img src="products/table-meeting.jpg" alt="Team Collab Table">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Team Collab Table</h3>
+    <p class="product-desc">Модульний стіл на 6–8 осіб з інтегрованими блоками живлення та LAN-підключенням.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">19 200 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Безпека</span>
+    <img src="products/pedestal-locker.jpg" alt="Locker Box Smart">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Locker Box Smart</h3>
+    <p class="product-desc">Мобільна сталева тумба для документів та техніки з безконтактним доступом по картці.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">3 400 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Приватність</span>
+    <img src="products/screen-divider.jpg" alt="Acoustic Divider">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Acoustic Divider</h3>
+    <p class="product-desc">Звукопоглинальний тканинний екран для розділення робочих столів у відкритих зонах.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">2 600 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Аксесуари</span>
+    <img src="products/arm-monitor.jpg" alt="Dual Monitor Arm">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Dual Monitor Arm</h3>
+    <p class="product-desc">Газліфтний настільний тримач для 2 моніторів з плавним нахилом та поворотом на 360°.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">3 100 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<article class="product-card">
+  <div class="product-image-box">
+    <span class="product-tag">Релакс</span>
+    <img src="products/chair-lounge.jpg" alt="Soft Lounge Pod">
+  </div>
+  <div class="product-info">
+    <h3 class="product-title">Soft Lounge Pod</h3>
+    <p class="product-desc">Глибоке акустичне крісло з високою спинкою для читання, перепочинку або дзвінків.</p>
+  </div>
+  <div class="product-footer">
+    <div class="product-price-box">
+      <span class="price-label">Вартість</span>
+      <span class="product-price">7 800 ₴</span>
+    </div>
+    <button type="button" class="add-btn" aria-label="Додати до кошика">
+      <img src="icons/plus.svg" alt="">
+    </button>
+  </div>
+</article>
+<!-- cards:end -->
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="reviews">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Спільнота</span>
+          <h2>Що кажуть резиденти про наш простір</h2>
+          <p>Відгуки фаундерів, розробників та дизайнерів, які працюють у просторі WorkHub</p>
+        </div>
+
+        <div class="testimonials-card">
+          <div class="testimonials-text">
+            <img src="icons/quote.svg" alt="" class="quote-icon">
+            <blockquote class="testimonial-quote">
+              «Переїзд нашої IT-команди у WorkHub став найкращим рішенням року. Ідеальна тиша в зоні кабінетів, ергономічні столи, завдяки яким спина не втомлюється до вечора, та неймовірно відкрита бізнес-спільнота.»
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="icons/testimonial-author.jpg" alt="" class="author-avatar">
+              <div>
+                <div class="author-name">Олена Коваленко</div>
+                <div class="author-role">Співзасновниця FinTech стартапу</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-media">
+            <img src="icons/testimonial-space.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount-section">
+      <div class="container">
+        <div class="discount-banner">
+          <img src="icons/CTA.png" alt="" class="cta-image">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="logo">
+          <img src="icons/logo.svg" alt="" class="logo-icon">
+          <span>WorkHub</span>
+        </a>
+        <div class="social-links">
+          <a href="https://www.facebook.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="icons/facebook.svg" alt="">
+          </a>
+          <a href="https://www.instagram.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="icons/instagram.svg" alt="">
+          </a>
+          <a href="https://x.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+            <img src="icons/twitter.svg" alt="">
+          </a>
+          <a href="https://www.linkedin.com/" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="icons/linkedin.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-col-title">Допомога</div>
+          <ul class="footer-links">
+            <li><a href="#contacts" class="footer-link">Підтримка</a></li>
+            <li><a href="#about" class="footer-link">Гід резидента</a></li>
+            <li><a href="#categories" class="footer-link">Тарифи та формати</a></li>
+            <li><a href="#about" class="footer-link">Можливості простору</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-title">Простори</div>
+          <ul class="footer-links">
+            <li><a href="#categories" class="footer-link">Hot Desk</a></li>
+            <li><a href="#categories" class="footer-link">Dedicated Desk</a></li>
+            <li><a href="#categories" class="footer-link">Приватні офіси</a></li>
+            <li><a href="#categories" class="footer-link">Переговорні кімнати</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-title">Обладнання</div>
+          <ul class="footer-links">
+            <li><a href="#products" class="footer-link">Розумні столи</a></li>
+            <li><a href="#products" class="footer-link">Ергономічні крісла</a></li>
+            <li><a href="#products" class="footer-link">Акустичні кабіни</a></li>
+            <li><a href="#products" class="footer-link">Офісні тумби</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-title">Компанія</div>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">Про WorkHub</a></li>
+            <li><a href="#reviews" class="footer-link">Резиденти</a></li>
+            <li><a href="mailto:hello@workhub.ua?subject=Кар%27єра" class="footer-link">Кар'єра</a></li>
+            <li><a href="#contacts" class="footer-link">Зв'язатися з нами</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-title">Контакти</div>
+          <ul class="footer-links">
+            <li><a href="tel:+380441234567" class="footer-link">+38 (044) 123-45-67</a></li>
+            <li><a href="mailto:hello@workhub.ua" class="footer-link">hello@workhub.ua</a></li>
+            <li><span class="footer-link">м. Київ, вул. Ділова, 5</span></li>
+            <li><span class="footer-link">Пн–Нд: 24/7 доступ</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 WorkHub. Всі права захищені.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

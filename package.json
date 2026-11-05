@@ -1,0 +1,23 @@
+{
+  "name": "workhub-coworking",
+  "version": "1.0.0",
+  "description": "WorkHub — розумні робочі місця для команд та резидентів",
+  "scripts": {
+    "scss:build": "sass src/scss/main.scss css/style.css --no-source-map --style=compressed",
+    "scss:watch": "sass --watch src/scss/main.scss:css/style.css",
+    "build:cards": "node scripts/build-cards.js",
+    "build": "npm run build:cards && npm run scss:build"
+  },
+  "keywords": [
+    "coworking",
+    "workhub",
+    "sass",
+    "npm",
+    "build"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.85.0"
+  }
+}

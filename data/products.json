@@ -1,0 +1,74 @@
+[
+  {
+    "id": "desk-smart-pro",
+    "title": "Smart Desk Pro",
+    "tag": "Хіт продажу",
+    "image": "products/desk-smart.jpg",
+    "description": "Стіл з подвійним електромотором, пам'яттю висоти на 4 положення та кабелем-каналом.",
+    "price": "14 500 ₴",
+    "link": "#"
+  },
+  {
+    "id": "aeromesh-chair",
+    "title": "AeroMesh Chair",
+    "tag": "Ергономіка",
+    "image": "products/chair-ergo.jpg",
+    "description": "Дихаюча сітчаста спинка, регульований поперековий підпір та 4D-підлокітники.",
+    "price": "8 900 ₴",
+    "link": "#"
+  },
+  {
+    "id": "silent-pod-solo",
+    "title": "Silent Pod Solo",
+    "tag": "Акустика",
+    "image": "products/pod-acoustic.jpg",
+    "description": "Акустична звукоізоляційна кабіна з вентиляцією, вбудованим столиком та розетками.",
+    "price": "52 000 ₴",
+    "link": "#"
+  },
+  {
+    "id": "team-collab-table",
+    "title": "Team Collab Table",
+    "tag": "Для команд",
+    "image": "products/table-meeting.jpg",
+    "description": "Модульний стіл на 6–8 осіб з інтегрованими блоками живлення та LAN-підключенням.",
+    "price": "19 200 ₴",
+    "link": "#"
+  },
+  {
+    "id": "locker-box-smart",
+    "title": "Locker Box Smart",
+    "tag": "Безпека",
+    "image": "products/pedestal-locker.jpg",
+    "description": "Мобільна сталева тумба для документів та техніки з безконтактним доступом по картці.",
+    "price": "3 400 ₴",
+    "link": "#"
+  },
+  {
+    "id": "acoustic-divider",
+    "title": "Acoustic Divider",
+    "tag": "Приватність",
+    "image": "products/screen-divider.jpg",
+    "description": "Звукопоглинальний тканинний екран для розділення робочих столів у відкритих зонах.",
+    "price": "2 600 ₴",
+    "link": "#"
+  },
+  {
+    "id": "dual-monitor-arm",
+    "title": "Dual Monitor Arm",
+    "tag": "Аксесуари",
+    "image": "products/arm-monitor.jpg",
+    "description": "Газліфтний настільний тримач для 2 моніторів з плавним нахилом та поворотом на 360°.",
+    "price": "3 100 ₴",
+    "link": "#"
+  },
+  {
+    "id": "soft-lounge-pod",
+    "title": "Soft Lounge Pod",
+    "tag": "Релакс",
+    "image": "products/chair-lounge.jpg",
+    "description": "Глибоке акустичне крісло з високою спинкою для читання, перепочинку або дзвінків.",
+    "price": "7 800 ₴",
+    "link": "#"
+  }
+]
